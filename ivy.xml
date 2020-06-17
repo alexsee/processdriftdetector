@@ -1,0 +1,29 @@
+<ivy-module version="2.0">
+	 <info organisation="prom" module="ProcessDriftDetector" revision="latest">
+	 <description>
+	 Version VERSION
+	 </description>
+	 </info>
+	 <dependencies>
+	 	<dependency org="prom" name="ProM-Plugins" rev="latest" changing="true" transitive="true" />
+	
+		<dependency org="prom" name="HeuristicsMiner" rev="latest" changing="true"
+		transitive="true" />
+		 <dependency org="prom" name="BasicUtils" rev="latest" changing="true"
+		transitive="true" />
+		 <dependency org="prom" name="Log" rev="latest" changing="true"
+		transitive="true" />
+		 <dependency org="prom" name="OSService" rev="latest" changing="true"
+		transitive="true" />
+		 <dependency org="prom" name="Widgets" rev="latest" changing="true"
+		transitive="true" />
+		
+		<dependency org="prom" name="ConceptDrift" rev="latest" changing="true" transitive="true" />
+		
+		<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-math3 -->
+		<dependency org="org.apache.commons" name="commons-math3" rev="3.6.1"/>
+		
+		<dependency org="org.jgrapht" name="jgrapht-core" rev="1.0.0" />
+
+	 </dependencies>
+</ivy-module>
